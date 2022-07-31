@@ -235,6 +235,17 @@ footer{
 
 /*pagina de contacto*/
 
+.layout{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    
+}
+
 .consultas{
     padding: 20px;
     color: #373737;
