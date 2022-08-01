@@ -348,6 +348,7 @@ footer{
     text-align: center;
     color: #373737;
     border-radius: 7px;
+    padding: 1rem;
 }
 
 .bordes{
@@ -357,6 +358,7 @@ footer{
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
 
 }
 .bordes__2{
@@ -365,6 +367,7 @@ footer{
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
 }
 .bordes__3{
     border-radius: 10px;
@@ -372,6 +375,7 @@ footer{
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
 }
 .bordes__4{
     border-radius: 10px;
