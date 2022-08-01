@@ -336,7 +336,6 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 0%;
     font-family: "etna-sans-serif";
     flex-direction: column;
     flex-wrap: wrap;
@@ -348,7 +347,7 @@ footer{
     text-align: center;
     color: #373737;
     border-radius: 7px;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .bordes{
