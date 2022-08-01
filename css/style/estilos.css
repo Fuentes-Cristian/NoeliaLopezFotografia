@@ -143,6 +143,13 @@ footer{
     position: relative;
     right: 1%;
     font-size: 2rem;
+    animation: alternate;
+    animation-name: instagram;
+    animation-duration: 20s;   
+}
+
+@keyframes instagram{
+    
     
 }
 .insta{
