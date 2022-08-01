@@ -26,7 +26,7 @@ p{
 }
 
 .body{
-   background-color:#f4f4f4;
+   background-color:#5351518a;
 }
 .conteiner{
     display: flex;
@@ -342,11 +342,11 @@ footer{
     flex-wrap: nowrap;
     width: 100%;
     height: 100%;
-    background-color: #ee28a52f;
+    background-color: #ee28a5be;
 
     border: 0.5px solid;
     text-align: center;
-    color: #373737;
+    color: #3737379a;
     border-radius: 7px;
     padding: 0.2rem;
 }
@@ -359,7 +359,7 @@ footer{
     text-align: center;
     font-family: "etna-sans-serif";
     padding: 0.5rem;
-    background-color: #dbd0d09f;
+    background-color: white;
 
 }
 .bordes__2{
@@ -369,6 +369,7 @@ footer{
     text-align: center;
     font-family: "etna-sans-serif";
     padding: 0.5rem;
+    background-color: white;
 }
 .bordes__3{
     border-radius: 1.5rem;
@@ -377,6 +378,7 @@ footer{
     text-align: center;
     font-family: "etna-sans-serif";
     padding: 0.5rem;
+    background-color: white;
 }
 .bordes__4{
     border-radius: 1.5rem;
@@ -385,6 +387,7 @@ footer{
     text-align: center;
     font-family: "etna-sans-serif";
     padding: 1.5rem;  
+    background-color: white;
 }
 .enviar{
     border-radius: 1rem;
@@ -412,9 +415,10 @@ footer{
     height: 100%;
 }
 .mapa__1{
+    display: flex;
+    flex-direction: row;
     margin-right: 10%;
     border-radius: 1rem;
-    flex-direction: row;
     
 }
 
