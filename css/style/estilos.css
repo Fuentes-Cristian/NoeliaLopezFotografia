@@ -338,10 +338,10 @@ footer{
     align-items: center;
     font-family: "etna-sans-serif";
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     height: 100%;
-    background-color: #CB89B3;
+    background-color: #e640a925;
 
     border: 0.5px solid;
     text-align: center;
@@ -416,7 +416,7 @@ footer{
     
 }
 
-@media  screen and (min-500px) {
+@media  screen and (max-width: 500px ) {
     .formulario{
         flex-direction: column;
     }
