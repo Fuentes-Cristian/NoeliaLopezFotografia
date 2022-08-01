@@ -261,7 +261,7 @@ footer{
     flex-direction: column;
     flex-wrap: nowrap;
     width: 100%;
-    height: 80%;
+    height: 100%;
     background-color: #CB89B3;
 
     border: 0.5px solid;
@@ -328,6 +328,18 @@ footer{
 .mapa__1{
     margin: 10%;
     border-radius: 1rem;
+    
+}
+
+@media  screen and (min-500px) {
+    .formulario{
+        flex-direction: column;
+    }
+    
+    .mapa{
+        flex-direction: column;
+    }
+
     
 }
 
