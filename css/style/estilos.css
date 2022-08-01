@@ -143,10 +143,16 @@ footer{
     position: relative;
     right: 1%;
     font-size: 2rem;
+       
+}
+
+
+.insta{
+    color: rgb(255, 0, 255);
     animation: alternate;
     animation-name: instagram;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;   
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes instagram{
@@ -167,9 +173,6 @@ footer{
         transform: translate3d(1.5);
     }
     
-}
-.insta{
-    color: rgb(255, 0, 255);
 }
 
 .facebook{
