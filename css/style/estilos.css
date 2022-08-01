@@ -319,9 +319,9 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     width: 100%;
     height: 100%;
-
 }
 
 .consultas{
@@ -399,9 +399,10 @@ footer{
 }
 .mapa{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    flex-flow: row, nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     width: 100%;
     height: 100%;
 }
