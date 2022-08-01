@@ -236,14 +236,12 @@ footer{
 /*pagina de contacto*/
 
 .layout{
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
+    display: flex;
     justify-content: center;
     align-items: center;
-}
-.formulario{
-    
+    width: 100%;
+    height: 100%;
+       
 }
 
 .consultas{
