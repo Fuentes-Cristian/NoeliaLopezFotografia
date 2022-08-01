@@ -328,6 +328,7 @@ footer{
 .mapa__1{
     margin: 10%;
     border-radius: 1rem;
+    flex-direction: row;
     
 }
 
@@ -336,7 +337,7 @@ footer{
         flex-direction: column;
     }
     
-    .mapa{
+    .mapa__1{
         flex-direction: column;
     }
 
