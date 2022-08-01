@@ -51,6 +51,7 @@ nav ul{
     width: 100%;
     list-style: none;
     text-decoration: none;
+    list-style: none;
 }
 
 .items{
@@ -59,6 +60,7 @@ nav ul{
     align-items: center;
     flex-flow: wrap;
     text-decoration: none;
+    list-style: none;
 }
 
    
@@ -150,26 +152,26 @@ footer{
 .insta{
     color: rgb(255, 0, 255);
     animation: alternate;
-    animation-name: instagram;
-    animation-duration: 10s;
+    animation-name: insta;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
-@keyframes instagram{
+@keyframes insta{
     0%{
-        background-color: rgb(255, 0, 255) ;
+        color: rgb(255, 0, 255) ;
         transform: scale(1);
         transform: translate3d(1);
     }
   
     50%{
-        background-color: rgba(114, 23, 156, 0.466) ;;
+        color: rgba(114, 23, 156, 0.466) ;;
         transform: scale(1.2);
         transform: translate3d(1.3);
         font-size: large;
     }
     100%{
-        background-color: rgb(107, 19, 179);
+        color: rgb(107, 19, 179);
         transform: scale(1.5);
         transform: translate3d(1.5);
         font-size: large;
@@ -189,24 +191,24 @@ footer{
     color: blue;
     animation: alternate;
     animation-name: facebook;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-@keyframes facebook{
+@keyframes face{
     0%{
-        background-color: rgb(14, 11, 196) ;
+        color: rgb(14, 11, 196) ;
         transform: scale(1);
         transform: translate3d(1);
     }
   
     50%{
-        background-color: rgba(54, 41, 238, 0.466) ;;
+        color: rgba(54, 41, 238, 0.466) ;;
         transform: scale(1.2);
         transform: translate3d(1.3);
         font-size: large;
     }
     100%{
-        background-color: rgb(31, 61, 231);
+        color: rgb(31, 61, 231);
         transform: scale(1.5);
         transform: translate3d(1.5);
         font-size: large;
@@ -223,25 +225,25 @@ footer{
 .what{
     color: green;
     animation: alternate;
-    animation-name: whatsapp;
-    animation-duration: 10s;
+    animation-name: what;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-@keyframes whatsapp{
+@keyframes what{
     0%{
-        background-color :rgba(11, 226, 11, 0.87);
+        color :rgba(11, 226, 11, 0.87);
         transform: scale(1);
         transform: translate3d(1);
     }
   
     50%{
-        background-color: rgba(9, 168, 9, 0.664);
+        color: rgba(9, 168, 9, 0.664);
         transform: scale(1.2);
         transform: translate3d(1.3);
         font-size: large;
     }
     100%{
-        background-color: rgba(5, 83, 5, 0.856);
+        color: rgba(5, 83, 5, 0.856);
         transform: scale(1.5);
         transform: translate3d(1.5);
         font-size: large;
