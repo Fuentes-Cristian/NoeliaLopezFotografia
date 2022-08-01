@@ -336,6 +336,7 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: 10%;
     font-family: "etna-sans-serif";
     flex-direction: column;
     flex-wrap: nowrap;
