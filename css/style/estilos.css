@@ -26,7 +26,7 @@ p{
 }
 
 .body{
-   background-color:#f4f4f4;
+   background-color:white;
 }
 .conteiner{
     display: flex;
@@ -59,6 +59,10 @@ nav ul{
     align-items: center;
     flex-flow: wrap;
     text-decoration: none;
+    list-style: none;
+}
+.items:hover{
+    transform: scale(1.2);
 }
 
    
@@ -73,9 +77,11 @@ nav ul{
    grid-template-rows: repeat(3, auto);
    justify-content: center;
    align-items: center;
+   column-gap: 0%;
+   row-gap: 0%;
    margin: 0% auto;
-   width: 80%;
-   height: 80%;
+   width: 100%;
+   height: 100%;
 }
 
 .I1{
@@ -143,10 +149,38 @@ footer{
     position: relative;
     right: 1%;
     font-size: 2rem;
-    
+       
 }
+
+
 .insta{
     color: rgb(255, 0, 255);
+    animation: alternate;
+    animation-name: insta;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes insta{
+    0%{
+        color: rgb(255, 0, 255) ;
+        transform: scale(1);
+        transform: translate3d(1);
+    }
+  
+    50%{
+        color: rgba(114, 23, 156, 0.466) ;;
+        transform: scale(1.2);
+        transform: translate3d(1.3);
+        font-size: large;
+    }
+    100%{
+        color: rgb(107, 19, 179);
+        transform: scale(1.5);
+        transform: translate3d(1.5);
+        font-size: large;
+    }
+    
 }
 
 .facebook{
@@ -154,10 +188,36 @@ footer{
     position: relative;
     left: 1%;
     font-size: 1.5rem;
-
+    
 }
+
 .face{
     color: blue;
+    animation: alternate;
+    animation-name: face;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes face{
+    0%{
+        color: rgb(14, 11, 196) ;
+        transform: scale(1);
+        transform: translate3d(1);
+    }
+  
+    50%{
+        color: rgba(54, 41, 238, 0.466) ;;
+        transform: scale(1.2);
+        transform: translate3d(1.5);
+        font-size: large;
+    }
+    100%{
+        color: rgb(31, 61, 231);
+        transform: scale(1.5);
+        transform: translate3d(1.5);
+        font-size: large;
+    }
+    
 }
 .whatsapp{
     display: block;
@@ -168,6 +228,31 @@ footer{
 }
 .what{
     color: green;
+    animation: alternate;
+    animation-name: what;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes what{
+    0%{
+        color :rgba(11, 226, 11, 0.87);
+        transform: scale(1);
+        transform: translate3d(1);
+    }
+  
+    50%{
+        color: rgba(9, 168, 9, 0.664);
+        transform: scale(1.2);
+        transform: translate3d(1.3);
+        font-size: large;
+    }
+    100%{
+        color: rgba(5, 83, 5, 0.856);
+        transform: scale(1.5);
+        transform: translate3d(1.5);
+        font-size: large;
+    }
+    
 }
 
 
@@ -235,6 +320,15 @@ footer{
 
 /*pagina de contacto*/
 
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
 .consultas{
     padding: 20px;
     color: #373737;
@@ -250,75 +344,104 @@ footer{
     margin: 10%;
     font-family: "etna-sans-serif";
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
-    height: 80%;
-    background-color: #CB89B3;
+    height: 100%;
+    background-color: #ee28a5be;
 
     border: 0.5px solid;
     text-align: center;
-    color: #373737;
+    color: #3737379a;
     border-radius: 7px;
+    padding: 0.2rem;
 }
 
 .bordes{
     
-    border-radius: 10px;
+    border-radius: 1.5rem;
     margin: 15px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
+    background-color: white;
 
 }
 .bordes__2{
-    border-radius: 10px;
+    border-radius: 1.5rem;
     margin: 15px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
+    background-color: white;
 }
 .bordes__3{
-    border-radius: 10px;
+    border-radius: 1.5rem;
     margin: 15px;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     font-family: "etna-sans-serif";
+    padding: 0.5rem;
+    background-color: white;
 }
 .bordes__4{
-    border-radius: 10px;
+    border-radius: 1.5rem;
     margin: 15px;
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
     padding: 1.5rem;  
+    background-color: white;
 }
 .enviar{
-    border-radius: 10px;
+    border-radius: 1rem;
     margin: 15px;
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
+    color: #5252528e;
     padding: 7px;
 }
 .restablecer{
-    border-radius: 10px;
+    border-radius: 1rem;
     margin: 15px;
     font-size: 20px;
     text-align: center;
     font-family: "etna-sans-serif";
+    color: #5252528e;
     padding: 7px;
 }
 .mapa{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row, nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 .mapa__1{
-    margin: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 10%;
     border-radius: 1rem;
+    
+}
+
+@media  screen and (max-width: 500px ) {
+    .formulario{
+        flex-direction: column;
+    }
+    
+    .mapa__1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     
 }
 
@@ -326,13 +449,21 @@ footer{
 
 /*pagina de embarazo*/
 
+.T8{
+    grid-column: -3/-2;
+    grid-row: -3/-2;
+}
+.T9{
+    grid-column: -2/-1;
+    grid-row: -3/-2;
+}
 .T10{
     grid-column: -5/-3;
     grid-row: 3/5;
 }
 .T11{
     grid-column: -3/-1;
-    grid-row: -3/-1;
+    grid-row: -2/-1;
 }
 
 
@@ -360,7 +491,7 @@ footer{
 
 .c1{
     grid-column: 1/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
 }
 .c7{
     grid-column: -5/-3;
@@ -368,7 +499,7 @@ footer{
 }
 .c8{
     grid-column: 3/5;
-    grid-row: -4/-3;
+    grid-row: -3/-2;
 }
 .c9{
     grid-column: -3/-1;
@@ -462,7 +593,6 @@ footer{
 /*pagina sobre mi*/
 
 
-
 .foto__propia{
     display: flex;
     justify-content: center;
@@ -474,7 +604,9 @@ footer{
 }
 
 .mi__foto{
-    width: 25rem;
+    display: flex;
+    align-items: center;
+    width: 40rem;
     height: auto;
     border-radius: 1rem;
 }
@@ -483,10 +615,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     text-align: center;
 }
 
 .texto{
+    flex-direction: row;
     font-family: "enta-sans-serif";
     font-size: 0.2rem;
     color: #4b4949b7
@@ -500,6 +634,5 @@ footer{
         flex-direction: column;
     }
 }
-
 
 
