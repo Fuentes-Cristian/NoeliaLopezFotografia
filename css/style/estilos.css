@@ -58,11 +58,11 @@ nav ul{
     justify-content: space-evenly;
     align-items: center;
     flex-flow: wrap;
-    text-decoration: none;
     list-style: none;
 }
-.items:hover{
-    transform: scale(1.2);
+.items__li:hover{
+    text-decoration: none;
+    transform: scale(0.5);
 }
 
    
@@ -593,6 +593,8 @@ footer{
 /*pagina sobre mi*/
 
 
+
+
 .foto__propia{
     display: flex;
     justify-content: center;
@@ -604,7 +606,9 @@ footer{
 }
 
 .mi__foto{
-    width: 25rem;
+    display: flex;
+    align-items: center;
+    width: 40rem;
     height: auto;
     border-radius: 1rem;
 }
@@ -613,10 +617,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     text-align: center;
 }
 
 .texto{
+    flex-direction: row;
     font-family: "enta-sans-serif";
     font-size: 0.2rem;
     color: #4b4949b7
