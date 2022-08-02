@@ -60,16 +60,19 @@ nav ul{
     flex-flow: wrap;
     list-style: none;
 }
-.items_li{
+.items__li{
     text-decoration: none;
     list-style: none;
 }
-.parrafo:hover{
-    transform: scale(1.5);
+
+.parrafo{
     text-decoration: none;
     list-style: none;
     font-family: "etna-sans-serif";
     color: #373737;
+}
+.parrafo:hover{
+    transform: scale(1.5);
 }
 
 
