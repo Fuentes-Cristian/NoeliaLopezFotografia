@@ -610,23 +610,23 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 1rem;
 }
 
 .descripcion{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: row;
-    text-align: center;
-    color: #4b4949b7
+    width: 100%;
+    height: 100%;
 }
 
-p{
+.texto{
     font-family: "enta-sans-serif";
-    font-size: 1rem;
+    font-size: 2rem;
     color: #4b4949b7
 }
 
