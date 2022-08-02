@@ -602,7 +602,6 @@ footer{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0% auto;
     width: 100%;
     height: 100%;
 }
@@ -622,7 +621,6 @@ footer{
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 0% auto;
     width: 100%;
     height: 100%;
     font-family: "enta-sans-serif";
