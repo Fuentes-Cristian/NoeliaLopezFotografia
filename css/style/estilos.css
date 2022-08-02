@@ -62,7 +62,7 @@ nav ul{
 }
 .items__li:hover{
     text-decoration: none;
-    transform: scale(0.5);
+    transform: scale(1);
 }
 
    
