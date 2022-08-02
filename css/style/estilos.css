@@ -68,13 +68,10 @@ nav ul{
     transform: scale(1.5);
     text-decoration: none;
     list-style: none;
-}
-
-   
-.parrafo{
     font-family: "etna-sans-serif";
     color: #373737;
 }
+
 
 .grid-layout{
    display: grid;
