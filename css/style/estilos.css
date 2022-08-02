@@ -60,10 +60,14 @@ nav ul{
     flex-flow: wrap;
     list-style: none;
 }
-.parrafo:hover{
+.items_li{
     text-decoration: none;
     list-style: none;
     transform: scale(1.2);
+}
+.parrafo{
+    text-decoration: none;
+    list-style: none;
 }
 
    
