@@ -62,7 +62,7 @@ nav ul{
     list-style: none;
 }
 .items:hover{
-    transform: scale(1);
+    transform: scale(1.2);
 }
 
    
@@ -593,27 +593,42 @@ footer{
 /*pagina sobre mi*/
 
 
-.mi__foto{
-    width: 600px;
-    position: relative;
-    left: 52%;
-    display: grid;
-    justify-content: end;
-    border-radius: 15px;
-    
-}
-.texto{
-    text-align: left;
-    position: relative;
-    left: 20px;
-    bottom: 400px;
-    color:rgba(19, 18, 18, 0.719);
-    display: inline-block;
-    font-family: "etna-sans-serif";
-    margin-left: 25px;
-    font-size:large;
-    
+.foto__propia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
 }
 
+.mi__foto{
+    width: 25rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto{
+    font-family: "enta-sans-serif";
+    font-size: 0.2rem;
+    color: #4b4949b7
+}
+
+@media screen and (max-width: 500px) {
+    .texto{
+        flex-direction: column;
+    }
+    .mi__foto{
+        flex-direction: column;
+    }
+}
 
 
