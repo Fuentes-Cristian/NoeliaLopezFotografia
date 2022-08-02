@@ -64,7 +64,7 @@ nav ul{
     text-decoration: none;
     list-style: none;
 }
-.parrafo{
+.parrafo:hover{
     transform: scale(1.5);
     text-decoration: none;
     list-style: none;
@@ -610,7 +610,7 @@ footer{
 }
 
 .mi__foto{
-    margin: 10%;
+    margin: 50%;
     width: 40%;
     height: auto;
     align-items: center;
