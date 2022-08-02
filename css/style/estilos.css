@@ -61,6 +61,9 @@ nav ul{
     text-decoration: none;
     list-style: none;
 }
+.items:hover{
+    transform: scale(1);
+}
 
    
 .parrafo{
