@@ -597,8 +597,8 @@ footer{
 
 .foto__propia{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -608,7 +608,7 @@ footer{
 .mi__foto{
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
     width: 100%;
     height: auto;
     border-radius: 1rem;
@@ -617,7 +617,7 @@ footer{
 .descripcion{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     text-align: center;
     color: #4b4949b7
