@@ -74,10 +74,11 @@ nav ul{
    grid-template-rows: repeat(3, auto);
    justify-content: center;
    align-items: center;
-   row-gap:0.2px;
+   column-gap: 0%;
+   row-gap: 0%;
    margin: 0% auto;
-   width: 80%;
-   height: 80%;
+   width: 100%;
+   height: 100%;
 }
 
 .I1{
