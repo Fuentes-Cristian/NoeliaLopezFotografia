@@ -635,6 +635,8 @@ footer{
     }
     .mi__foto{
         flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 }
 
