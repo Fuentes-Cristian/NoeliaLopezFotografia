@@ -62,7 +62,7 @@ nav ul{
 }
 .items__li:hover{
     text-decoration: none;
-    transform: scale(1);
+    transform: scale(0.8);
 }
 
    
@@ -598,7 +598,7 @@ footer{
 .foto__propia{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -607,8 +607,9 @@ footer{
 
 .mi__foto{
     display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
-    width: 40rem;
+    width: 100%;
     height: auto;
     border-radius: 1rem;
 }
@@ -616,9 +617,10 @@ footer{
 .descripcion{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     text-align: center;
+    color: #4b4949b7
 }
 
 p{
