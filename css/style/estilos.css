@@ -63,9 +63,9 @@ nav ul{
 .items_li{
     text-decoration: none;
     list-style: none;
-    transform: scale(1.2);
 }
 .parrafo{
+    transform: scale(1.5);
     text-decoration: none;
     list-style: none;
 }
