@@ -617,18 +617,17 @@ footer{
 
 .descripcion{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     height: 100%;
-}
-
-.texto{
     font-family: "enta-sans-serif";
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #4b4949b7
 }
+
 
 @media screen and (max-width: 500px) {
     .texto{
