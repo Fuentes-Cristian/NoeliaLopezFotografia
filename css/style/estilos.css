@@ -607,7 +607,7 @@ footer{
 
 .mi__foto{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     width: 40rem;
     height: auto;
     border-radius: 1rem;
@@ -621,10 +621,9 @@ footer{
     text-align: center;
 }
 
-.texto{
-    flex-direction: row;
+p{
     font-family: "enta-sans-serif";
-    font-size: 0.2rem;
+    font-size: 1rem;
     color: #4b4949b7
 }
 
