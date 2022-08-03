@@ -897,12 +897,11 @@ footer{
     align-items: center;
     flex-direction: row;
     text-align: center;
-    font-family:  "enta-sans-serif" ;
 }
 
 .texto{
     flex-direction: row;
-    font-family: "enta-sans-serif";
+    font-family: "etna-sans-serif";
     font-size: 1.2rem;
     color: #4b4949b7
 }
