@@ -43,7 +43,7 @@ header{
     height: 100px;
     width: 25;
 }
-
+/*
 nav ul{
     display: flex;
     justify-content:center;
@@ -59,8 +59,8 @@ nav ul{
     align-items: center;
     flex-flow: wrap;
     list-style: none;
-}
-.items__li{
+}*/
+.row{
     text-decoration: none;
     list-style: none;
 }
@@ -71,9 +71,10 @@ nav ul{
     font-family: "etna-sans-serif";
     color: #373737;
 }
+/*
 .parrafo:hover{
     transform: scale(1.5);
-}
+}*/
 
 
 .grid-layout{
