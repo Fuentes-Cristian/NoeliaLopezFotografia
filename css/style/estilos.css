@@ -346,7 +346,7 @@ footer{
     margin: 10%;
     font-family: "etna-sans-serif";
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     height: 100%;
     background-color: #ee28a5be;
@@ -434,6 +434,12 @@ footer{
 }
 
 @media screen and (max-width: 500px) {
+    .formulario{
+        flex-direction: column;
+    }
+    .mapa{
+        flex-direction: column;
+    }
     .mapa__1{
         flex-direction: column;
     }
