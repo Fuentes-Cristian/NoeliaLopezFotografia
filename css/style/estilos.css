@@ -433,6 +433,13 @@ footer{
     
 }
 
+@media screen and (max-width: 500px) {
+    .mapa__1{
+        flex-direction: column;
+    }
+    
+}
+
 /*pagina de embarazo*/
 
 .T8{
