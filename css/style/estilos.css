@@ -344,10 +344,13 @@ footer{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "etna-sans-serif";
     flex-direction: column;
+    width: 40%;
     flex-wrap: nowrap;
-    background-color: #dd28ee7a;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     border: 0.5px solid;
     text-align: center;
     color: #3737379a;
@@ -411,12 +414,35 @@ footer{
     color: #5252528e;
     padding: 7px;
 }
+.mapa{
+    width: 100%;
+    height: auto;
+    
+  
+}
+.mapa__1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 
-
+}
+.mapa__2{
+    border-radius: 1rem;
+}
 
 @media screen and (max-width: 500px) {
     .formulario{
+        margin: 0% auto;
         width: 100%;
+    }
+    .mapa__1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 75%;
+        margin: 0% auto;
     }
     
 }
