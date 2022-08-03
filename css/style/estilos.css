@@ -281,40 +281,42 @@ footer{
 
 @media screen and (max-width: 501px) {
    .grid-layout{
+    width: 100%;
     grid-template-columns: repeat(1, auto);
+    grid-template-rows: auto;
    }
     
     .I1{
         grid-column: 1/1;
-        grid-row: 1/2;
+        grid-row: auto;
     }
     .I2{
         grid-column: 1/1;
-        grid-row: 2/3;
+        grid-row: auto;
     }
     .I3{
         grid-column: 1/1;
-        grid-row: 3/4;
+        grid-row: auto;
     }
     .I4{
         grid-column: 1/1;
-        grid-row: 4/5;
+        grid-row: auto;
     }
     .I5{
         grid-column: 1/1;
-        grid-row: -5/-4;
+        grid-row: auto;
     }
     .I6{
         grid-column: 1/1;
-        grid-row: -4/-3;
+        grid-row: auto;
     }
     .I7{
         grid-column: 1/1;
-        grid-row: -3/-2;
+        grid-row: auto;
     }
     .I8{
         grid-column: 1/1;
-        grid-row: -2/-1;
+        grid-row: auto;
     }
     }
 
