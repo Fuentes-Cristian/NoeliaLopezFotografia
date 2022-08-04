@@ -808,42 +808,18 @@ footer{
 
 
 /*pagina reservasiones*/
+.row__3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
 
-
-
-.espacio{
-    display: inline-block;
-    position: fixed ;
-    bottom: 0%;
-    left: 37%;
-   
-}
-.container__1{
-    width: 300px;
-    height: 200px;
-}
-.container__2{
-    width: 300px;
-    height: 200px;
-}
-.container__3{
-    width: 300px;
-    height: 200px;
-}
-.container__4{
-    width: 300px;
-    height: 200px;
-    position: relative;
-    left: 200px;
-    top: 30%;
-}
-.container__5{
-    width: 300px;
-    height: 200px;
-    position: relative;
-    left: 70%;
-    top: 30%;
-}
 .pReservarsesion{
     text-align: center;
     color: #373737;
@@ -851,13 +827,19 @@ footer{
 .link__r{
     color: #373737;
 }
-.link__re{
-    
-}
 .cuadro{
     border: 1px solid black;
     border-radius: 1rem;
+    
 }
+
+@media screen and (max-width: 501px) {
+    .row__3{
+        flex-direction: column;
+    }
+    
+}
+
 
 /*pagina sobre mi*/
 
