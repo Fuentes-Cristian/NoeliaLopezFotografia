@@ -340,7 +340,8 @@ footer{
 .div__formulario{
     width: 100%;
     height: auto;
-}   
+}  
+ 
 .formulario{
     display:flex;
     justify-content: center;
@@ -415,37 +416,19 @@ footer{
     color: #5252528e;
     padding: 7px;
 }
-.mapa{
-    width: 100%;
-    height: auto;
-    
-  
-}
-.mapa__1{
+
+.row__2{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     padding: 1rem;
-
-}
-.mapa__2{
-    border-radius: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 501px) {
     .formulario{
-         width: 100%;
+         width: 90%;
     }
-    .mapa__1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        
-    }
+    
     
 }
 /*pagina de embarazo*/
