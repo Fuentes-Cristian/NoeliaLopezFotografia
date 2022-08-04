@@ -844,17 +844,17 @@ footer{
 
 /*reservars sesion extra*/
 .centrar__1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
     width: 100%;
+    
     
 }
 .lista{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+    width: 100%;
     
 }
 
@@ -866,10 +866,37 @@ footer{
     font-family: "etna-sans-serif";
 }
 
+.row__5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    row-gap: 1rem;
+}
+.encabezado__form{
+   text-align: center;
+   font-family: "etna-sans-serif";
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    
+}
+
+
+
+
 @media screen and (max-width: 501px) {
     .centrar__1{
+       
+        flex-direction: column;
         width: 100%;
+        
     }
+    
     
 }
 
