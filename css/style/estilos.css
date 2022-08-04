@@ -844,6 +844,20 @@ footer{
     left: 70%;
     top: 30%;
 }
+.pReservarsesion{
+    text-align: center;
+    color: #373737;
+}
+.link__r{
+    color: #373737;
+}
+.link__re{
+    
+}
+.cuadro{
+    border: 1px solid black;
+    border-radius: 1rem;
+}
 
 /*pagina sobre mi*/
 
