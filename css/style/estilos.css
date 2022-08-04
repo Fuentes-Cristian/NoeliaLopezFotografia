@@ -842,6 +842,37 @@ footer{
     
 }
 
+/*reservars sesion extra*/
+.centrar__1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+}
+.lista{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+}
+
+.diaLunes{
+    grid-column-start: 1;
+}
+.day-name{
+    background: #8d8b8b79;
+    font-family: "etna-sans-serif";
+}
+
+@media screen and (max-width: 501px) {
+    .centrar__1{
+        width: 100%;
+    }
+    
+}
+
 
 /*pagina sobre mi*/
 
