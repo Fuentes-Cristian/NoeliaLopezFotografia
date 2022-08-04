@@ -235,6 +235,8 @@ footer{
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+
+
 @keyframes what{
     0%{
         color :rgba(11, 226, 11, 0.87);
@@ -352,7 +354,7 @@ footer{
     flex-direction: column;
     width: 40%;
     flex-wrap: nowrap;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-image: linear-gradient(to top, #5c5459, #625c62, #68646b, #6f6d73, #75757c, #797c83, #7e828a, #828990, #859097, #89989c, #8e9fa1, #93a6a5);
     border: 0.5px solid;
     text-align: center;
     color: #3737379a;
