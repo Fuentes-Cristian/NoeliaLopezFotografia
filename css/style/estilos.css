@@ -900,6 +900,30 @@ footer{
     
 }
 
+/*pagina de sesiones*/
+
+.row__7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 4rem;
+}
+.imagen1{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 501px) {
+    .row__7{
+        flex-direction: column;
+        width: 100%;
+    }
+   
+}
+
 
 /*pagina sobre mi*/
 
