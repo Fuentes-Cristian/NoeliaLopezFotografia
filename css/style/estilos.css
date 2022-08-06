@@ -855,17 +855,17 @@ footer{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    width: 30%;
-    
-}
-
-.diaLunes{
-    grid-column-start: 1;
+    grid-template-rows: auto;
+    width: 40%;
+    text-align: center;
 }
 .day-name{
     background: #8d8b8b79;
     font-family: "etna-sans-serif";
+    width: 100%;
+    padding: 0.2rem;
 }
+
 /*botones de horarios*/
 
 .row__5{
@@ -882,7 +882,7 @@ footer{
     align-items: center;
     flex-direction: row;
     column-gap: 2rem;
-    width: 40%;
+    width: 50%;
     
 }
 
@@ -897,28 +897,36 @@ footer{
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
+    width: 100%;
     
     
 }
 .color__b{
+    font-family: "etna-sans-serif";
     color: #7e828a;
 }
 .btn{
     border: 1px solid black;
+    
 }
 
 
 
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 768px) {
     .centrar__1{
-       
         flex-direction: column;
-        width: 100%;
-        
+        width: 100%;   
     }
-    
-    
+    .lista{
+        width: 90%;
+    }
+    .colum{
+        width: 100%;
+    }
+    .tamaño__1{
+        width: 100%;
+    }
 }
 
 /*pagina de sesiones*/
