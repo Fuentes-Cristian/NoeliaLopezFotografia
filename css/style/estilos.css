@@ -126,7 +126,9 @@ header{
     object-fit: cover;
     overflow: hidden;
     border-radius: 1rem;
+    cursor: pointer;
 }
+
 .img:hover{
     transform: scale(1.2) ;
 }
