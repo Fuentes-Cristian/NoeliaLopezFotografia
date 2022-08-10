@@ -127,10 +127,11 @@ header{
     overflow: hidden;
     border-radius: 1rem;
     cursor: pointer;
+    padding: 2px;
+    transition: all 1s;
 }
-
 .img:hover{
-    transform: scale(1.2) ;
+    transform: scale(1.1);
 }
 
  
