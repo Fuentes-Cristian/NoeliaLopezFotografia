@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.logo__png {
+  width: 20%;
+}
+
+header {
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 100px;
+  width: 25;
+}
+header .header__2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(255, 254, 254, 0.1764705882);
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0%;
+  height: 6rem;
+}
+footer .instagram {
+  display: block;
+  position: relative;
+  right: 1%;
+  font-size: 2rem;
+}
+footer .instagram .insta {
+  color: rgb(255, 0, 255);
+  animation: alternate;
+  animation-name: insta;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes insta {
+  0% {
+    color: rgb(255, 0, 255);
+    transform: scale(1);
+    transform: translate3d(1);
+  }
+  50% {
+    color: rgba(114, 23, 156, 0.466);
+    transform: scale(1.2);
+    transform: translate3d(1.3);
+    font-size: large;
+  }
+  100% {
+    color: rgb(107, 19, 179);
+    transform: scale(1.5);
+    transform: translate3d(1.5);
+    font-size: large;
+  }
+}
+
+.facebook {
+  display: block;
+  position: relative;
+  left: 1%;
+  font-size: 1.5rem;
+}
+.facebook .face {
+  color: blue;
+  animation: alternate;
+  animation-name: face;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes face {
+  0% {
+    color: rgb(14, 11, 196);
+    transform: scale(1);
+    transform: translate3d(1);
+  }
+  50% {
+    color: rgba(54, 41, 238, 0.466);
+    transform: scale(1.2);
+    transform: translate3d(1.5);
+    font-size: large;
+  }
+  100% {
+    color: rgb(31, 61, 231);
+    transform: scale(1.5);
+    transform: translate3d(1.5);
+    font-size: large;
+  }
+}
+
+.whatsapp {
+  display: block;
+  position: relative;
+  left: 42%;
+  bottom: 1.5rem;
+  font-size: 3rem;
+}
+.whatsapp .what {
+  color: green;
+  animation: alternate;
+  animation-name: what;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes what {
+  0% {
+    color: rgba(11, 226, 11, 0.87);
+    transform: scale(1);
+    transform: translate3d(1);
+  }
+  50% {
+    color: rgba(9, 168, 9, 0.664);
+    transform: scale(1.2);
+    transform: translate3d(1.3);
+    font-size: large;
+  }
+  100% {
+    color: rgba(5, 83, 5, 0.856);
+    transform: scale(1.5);
+    transform: translate3d(1.5);
+    font-size: large;
+  }
+}
+
+/*# sourceMappingURL=estilos2.css.map */
