@@ -93,7 +93,7 @@ header{
     grid-row: 1/2;
 }
 .I3{
-    grid-column: 2/4;
+    grid-column: 2/4; 
     grid-row: 2/3;
 }
 .I4{
@@ -933,7 +933,7 @@ footer{
 }
 
 /*pagina de sesiones*/
-/*
+
 .container{
     padding: 1rem;
     
@@ -951,7 +951,7 @@ footer{
     .row__7{
         flex-direction: column;
     }
-}*/
+}
 
 
 
