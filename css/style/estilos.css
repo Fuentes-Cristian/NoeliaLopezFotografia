@@ -66,11 +66,6 @@ header{
     font-family: "etna-sans-serif";
     color: #373737;
 }
-/*
-.parrafo:hover{
-    transform: scale(1.5);
-}*/
-
 
 .grid-layout{
    display: grid;
@@ -946,10 +941,16 @@ footer{
 
 .imagen1{
     width: 100%;
+    border-radius: 1rem;
 }
 @media screen and (max-width: 501px) {
     .row__7{
         flex-direction: column;
+    }
+    p{
+        color: #5c5459;
+        font-size:medium;
+        border-radius: 0.5em;
     }
 }
 
