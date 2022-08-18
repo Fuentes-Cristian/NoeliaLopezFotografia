@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/*variables de colores*/ /*mixins*/ /*maps*/ /*variables fonts*/
+/*maps-fonts*/
+/*extend de header*/
 .logo {
   display: flex;
   justify-content: center;
@@ -137,8 +140,8 @@ footer .instagram .insta {
   }
 }
 
-perro {
-  margin: 1px;
+* {
+  margin: 1pz;
 }
 
 /*# sourceMappingURL=estilos2.css.map */
