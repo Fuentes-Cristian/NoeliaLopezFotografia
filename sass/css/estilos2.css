@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-/*variables de colores*/ /*mixins*/ /*maps*/ /*variables fonts*/
+/*variables de colores*/
+/*maps*/
+/*mixins*/ /*variables fonts*/
 /*maps-fonts*/
 /*extend de header*/
 .logo {
@@ -138,10 +140,6 @@ footer .instagram .insta {
     transform: translate3d(1.5);
     font-size: large;
   }
-}
-
-* {
-  margin: 1pz;
 }
 
 /*# sourceMappingURL=estilos2.css.map */

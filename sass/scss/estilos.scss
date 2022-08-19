@@ -6,11 +6,11 @@
 @import 'vars';
 @import'mixins';
 @import'mediaquery';
-@import'maps';
 @import'header';
 @import'footer';
 @import'fonts';
 @import'extend';
+@import 'maps';
 
 
 .logo{
@@ -27,7 +27,7 @@
  
 header{
     text-align: center;
-    background-color: #f4f4f4;
+    background-color: $color-primario;
     height: 100px;
     width: 25;
 
@@ -41,20 +41,21 @@ header{
 
 footer{
     text-align: center;
-    background-color: #fffefe2d;
+    background-color: $color-secundario(#fffefe2d);
     position:sticky;
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0%;
     height: 6rem;
+    
     .instagram{
         display: block;
         position: relative;
         right: 1%;
         font-size: 2rem;
         .insta{
-            color: rgb(255, 0, 255);
+            color: map-get($redes, instagram) ;
             animation: alternate;
             animation-name: insta;
             animation-duration: 5s;
@@ -62,19 +63,19 @@ footer{
         }
         @keyframes insta{
             0%{
-                color: rgb(255, 0, 255) ;
+                color: map-get($redes, instagram ) ;
                 transform: scale(1);
                 transform: translate3d(1);
             }
           
             50%{
-                color: rgba(114, 23, 156, 0.466);
+                color: map-get($redes, instagram__2);
                 transform: scale(1.2);
                 transform: translate3d(1.3);
                 font-size: large;
             }
             100%{
-                color: rgb(107, 19, 179);
+                color: map-get($redes, instagra__3 ) ;
                 transform: scale(1.5);
                 transform: translate3d(1.5);
                 font-size: large;
@@ -91,7 +92,7 @@ footer{
     font-size: 1.5rem;
 
     .face{
-        color: blue;
+        color: map-get($redes, facebook );
         animation: alternate;
         animation-name: face;
         animation-duration: 5s;
@@ -99,19 +100,19 @@ footer{
     }
     @keyframes face{
         0%{
-            color: rgb(14, 11, 196) ;
+            color: map-get($redes, facebook ) ;
             transform: scale(1);
             transform: translate3d(1);
         }
       
         50%{
-            color: rgba(54, 41, 238, 0.466) ;;
+            color: map-get($redes, facebook__2 );
             transform: scale(1.2);
             transform: translate3d(1.5);
             font-size: large;
         }
         100%{
-            color: rgb(31, 61, 231);
+            color: map-get($redes, facebook__3);
             transform: scale(1.5);
             transform: translate3d(1.5);
             font-size: large;
@@ -125,7 +126,7 @@ footer{
     bottom: 1.5rem;
     font-size: 3rem;
     .what{
-        color: green;
+        color: map-get($redes, whatsapp);
         animation: alternate;
         animation-name: what;
         animation-duration: 5s;
@@ -133,19 +134,19 @@ footer{
     }
     @keyframes what{
         0%{
-            color :rgba(11, 226, 11, 0.87);
+            color :map-get($redes, whatsapp);
             transform: scale(1);
             transform: translate3d(1);
         }
       
         50%{
-            color: rgba(9, 168, 9, 0.664);
+            color:map-get($redes, whatsapp__2);
             transform: scale(1.2);
             transform: translate3d(1.3);
             font-size: large;
         }
         100%{
-            color: rgba(5, 83, 5, 0.856);
+            color: map-get($redes, whatsapp__3);
             transform: scale(1.5);
             transform: translate3d(1.5);
             font-size: large;
@@ -153,8 +154,6 @@ footer{
         
     }
 }
-
-
 
 
 
