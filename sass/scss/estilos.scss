@@ -14,15 +14,23 @@
 
 
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexible(flex, center,center, nowrap);
     width: 100%;
     height: auto;
 
     &__png{
         width: 20%;
     }
+}
+.body{
+    background-color: $color-primario;
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
 }
  
 header{
@@ -32,20 +40,43 @@ header{
     width: 25;
 
     .header__2{
+        @include flexible(flex, center,center, nowrap)
+    }
+}
+
+section{
+    .grid-layout{
+       @include grid(grid, columns, row, center, center);
+        margin: 0% auto;
+        width: 80%;
+        height: 100%;
+    }
+    .img{
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        row-gap: 3%;
+        transition: 0.5s;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem;
+        cursor: pointer;
+        padding: 2px;
+        transition: all 1s;
+    }
+    
+    .img:hover{
+        transform: scale(1.1);
     }
 }
 
 
 footer{
+    @include flexible(flex, center,center, nowrap);
     text-align: center;
     background-color: $color-secundario(#fffefe2d);
     position:sticky;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     bottom: 0%;
     height: 6rem;
     

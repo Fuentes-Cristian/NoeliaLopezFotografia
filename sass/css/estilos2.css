@@ -4,20 +4,32 @@
   box-sizing: border-box;
 }
 
-/*variables de colores*/
-/*maps*/
-/*mixins*/ /*variables fonts*/
+/*variables de colores*/ /*mixins*/ /*variables fonts*/
 /*maps-fonts*/
 /*extend de header*/
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-flow: column, row;
   width: 100%;
   height: auto;
 }
 .logo__png {
   width: 20%;
+}
+
+.body {
+  background-color: #f4f4f4;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
 }
 
 header {
@@ -28,17 +40,55 @@ header {
 }
 header .header__2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-flow: column, row;
+}
+
+section .grid-layout {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  margin: 0% auto;
+  width: 80%;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  section .grid-layout {
+    grid-template-columns: repeat(1, auto);
+    column-gap: 1rem;
+  }
+}
+section .img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  row-gap: 3%;
+  transition: 0.5s;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding: 2px;
+  transition: all 1s;
+}
+section .img:hover {
+  transform: scale(1.1);
 }
 
 footer {
-  text-align: center;
-  background-color: rgba(255, 254, 254, 0.1764705882);
-  position: sticky;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+  flex-flow: column, row;
+  text-align: center;
+  background-color: #373737 rgba(255, 254, 254, 0.1764705882);
+  position: sticky;
   bottom: 0%;
   height: 6rem;
 }
@@ -68,7 +118,6 @@ footer .instagram .insta {
     font-size: large;
   }
   100% {
-    color: rgb(107, 19, 179);
     transform: scale(1.5);
     transform: translate3d(1.5);
     font-size: large;
@@ -90,7 +139,7 @@ footer .instagram .insta {
 }
 @keyframes face {
   0% {
-    color: rgb(14, 11, 196);
+    color: blue;
     transform: scale(1);
     transform: translate3d(1);
   }
@@ -124,7 +173,7 @@ footer .instagram .insta {
 }
 @keyframes what {
   0% {
-    color: rgba(11, 226, 11, 0.87);
+    color: green;
     transform: scale(1);
     transform: translate3d(1);
   }

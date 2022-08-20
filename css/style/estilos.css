@@ -25,9 +25,9 @@ p{
     width: 20%;
 }
 
-.body{
+/*.body{
    background-color:white;
-}
+}*/
 .conteiner{
     display: flex;
     flex-direction: column;
@@ -66,18 +66,17 @@ header{
     font-family: "etna-sans-serif";
     color: #373737;
 }
-
+/*
 .grid-layout{
    display: grid;
    grid-template-columns: repeat(4, auto);
    grid-template-rows: repeat(3, auto);
    justify-content: center;
    align-items: center;
- 
    margin: 0% auto;
    width: 80%;
    height: 100%;
-}
+}*/
 
 .I1{
     grid-column: 1/3;
@@ -110,7 +109,7 @@ header{
 .I8{
     grid-column: -5/-1;
 }
-
+/*
 .img{
     display: flex;
     flex-direction: row;
@@ -127,7 +126,7 @@ header{
 }
 .img:hover{
     transform: scale(1.1);
-}
+}*/
 
  
 
@@ -273,7 +272,6 @@ footer{
 
 }
 /*media, adaptacion cualquier tipo de pantalla*/
-
 @media screen and (max-width: 501px) {
    .grid-layout{
     grid-template-columns: repeat(1, auto);
