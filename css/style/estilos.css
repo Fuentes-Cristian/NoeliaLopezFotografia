@@ -1,0 +1,13 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: "etna-sans-serif";
+    src: url("../etna-sans-serif/etna-free-font.otf");
+  }
+  p {
+    font-family: "etna-sans-serif";
+  }
