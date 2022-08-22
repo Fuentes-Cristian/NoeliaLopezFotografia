@@ -6,7 +6,6 @@
 
 /*variables de colores*/ /*mixins*/ /*variables fonts*/
 /*maps-fonts*/
-/*extend de header*/
 .logo {
   display: flex;
   justify-content: center;
@@ -45,6 +44,19 @@ header .header__2 {
   flex-wrap: nowrap;
   flex-flow: column, row;
 }
+header .row {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .parrafo {
+  text-decoration: none;
+  list-style: none;
+  font-family: "etna-sans-serif";
+  color: #373737;
+}
 
 section .grid-layout {
   display: grid;
@@ -78,6 +90,95 @@ section .img {
 }
 section .img:hover {
   transform: scale(1.1);
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "etna-sans-serif";
+  flex-direction: column;
+  width: 40%;
+  flex-wrap: nowrap;
+  background-image: linear-gradient(to top, #5c5459, #625c62, #68646b, #6f6d73, #75757c, #797c83, #7e828a, #828990, #859097, #89989c, #8e9fa1, #93a6a5);
+  border: 0.5px solid;
+  text-align: center;
+  color: rgba(55, 55, 55, 0.6039215686);
+  border-radius: 7px;
+  padding: 0.2rem;
+}
+.formulario .bordes {
+  border-radius: 1.5rem;
+  margin: 15px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  padding: 0.5rem;
+  background-color: white;
+}
+.formulario .bordes__2 {
+  border-radius: 1.5rem;
+  margin: 15px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  padding: 0.5rem;
+  background-color: white;
+}
+.formulario .bordes__3 {
+  border-radius: 1.5rem;
+  margin: 15px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  padding: 0.5rem;
+  background-color: white;
+}
+.formulario .bordes__4 {
+  border-radius: 1.5rem;
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  padding: 1.5rem;
+  background-color: white;
+}
+.formulario .enviar {
+  border-radius: 1rem;
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  color: rgba(82, 82, 82, 0.5568627451);
+  padding: 7px;
+}
+.formulario .restablecer {
+  border-radius: 1rem;
+  margin: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "etna-sans-serif";
+  color: rgba(82, 82, 82, 0.5568627451);
+  padding: 7px;
+}
+.formulario .div__formulario {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 501px) {
+  .formulario .formulario {
+    width: 90%;
+  }
+}
+
+.row__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-flow: column, row;
 }
 
 footer {

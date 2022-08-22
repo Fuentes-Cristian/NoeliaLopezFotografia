@@ -6,10 +6,7 @@
 @import 'vars';
 @import'mixins';
 @import'mediaquery';
-@import'header';
-@import'footer';
 @import'fonts';
-@import'extend';
 @import 'maps';
 
 
@@ -42,11 +39,25 @@ header{
     .header__2{
         @include flexible(flex, center,center, nowrap)
     }
+
+    .row{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .parrafo{
+        text-decoration: none;
+        list-style: none;
+        font-family: "etna-sans-serif";
+        color: #373737;
+    }
 }
 
 section{
     .grid-layout{
-       @include grid(grid, columns, row, center, center);
+       @include grid (grid, columns, row, center, center);
         margin: 0% auto;
         width: 80%;
         height: 100%;
@@ -71,6 +82,90 @@ section{
     }
 }
 
+.formulario{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "etna-sans-serif";
+    flex-direction: column;
+    width: 40%;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(to top, #5c5459, #625c62, #68646b, #6f6d73, #75757c, #797c83, #7e828a, #828990, #859097, #89989c, #8e9fa1, #93a6a5);
+    border: 0.5px solid;
+    text-align: center;
+    color: #3737379a;
+    border-radius: 7px;
+    padding: 0.2rem;
+    .bordes{
+        border-radius: 1.5rem;
+        margin: 15px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        padding: 0.5rem;
+        background-color: white;
+    }
+    .bordes__2{
+        border-radius: 1.5rem;
+        margin: 15px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        padding: 0.5rem;
+        background-color: white;
+    }
+    .bordes__3{
+        border-radius: 1.5rem;
+        margin: 15px;
+        font-size: 1rem;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        padding: 0.5rem;
+        background-color: white;
+    }
+    .bordes__4{
+        border-radius: 1.5rem;
+        margin: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        padding: 1.5rem;  
+        background-color: white;
+    }
+    .enviar{
+        border-radius: 1rem;
+        margin: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        color: #5252528e;
+        padding: 7px;
+    }
+    .restablecer{
+        border-radius: 1rem;
+        margin: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-family: "etna-sans-serif";
+        color: #5252528e;
+        padding: 7px;
+    }
+    .div__formulario{
+        width: 100%;
+        height: auto;
+    }  
+    @media screen and (max-width: 501px) {
+        .formulario{
+             width: 90%;
+        }   
+    }
+
+}
+.row__2{
+    @include flexible(flex, center, center, nowrap)
+}
 
 footer{
     @include flexible(flex, center,center, nowrap);
@@ -150,13 +245,16 @@ footer{
         }
     }
 }
+
+
 .whatsapp{
     display: block;
     position: relative;
     left: 42%;
     bottom: 1.5rem;
     font-size: 3rem;
-    .what{
+
+   .what{
         color: map-get($redes, whatsapp);
         animation: alternate;
         animation-name: what;
