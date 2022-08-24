@@ -5,7 +5,6 @@
 }
 @import 'vars';
 @import'mixins';
-@import'mediaquery';
 @import'fonts';
 @import 'maps';
 
@@ -760,7 +759,6 @@ footer{
     position:sticky;
     bottom: 0%;
     height: 6rem;
-    
     .instagram{
         display: block;
         position: relative;
@@ -836,7 +834,7 @@ footer{
 .whatsapp{
     display: block;
     position: relative;
-    left: 42%;
+    left: 45%;
     bottom: 1.5rem;
     font-size: 3rem;
 
@@ -866,9 +864,25 @@ footer{
             transform: translate3d(1.5);
             font-size: large;
         }
-        
-    }
+     }    
 }
+@media screen and (max-width: 768px) {
+    .derechos{
+        width: 100%;
+        font-size: small;
+    }  
+}
+.derechos{
+    display: inline-block;
+    bottom: 0%;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    text-align: center;
+    position: fixed;
+}    
+
+
 
 
 
