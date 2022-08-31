@@ -785,17 +785,26 @@ header .parrafo {
   align-items: center;
   flex-wrap: nowrap, wrap;
   flex-flow: column, row;
-  flex-direction: row;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
+  width: 35%;
+  height: 100%;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .descripcion {
+    width: 100%;
+  }
+}
 .descripcion .texto {
-  flex-direction: row;
   font-family: "etna-sans-serif";
   font-size: 1.2rem;
   color: rgba(75, 73, 73, 0.7176470588);
+}
+@media screen and (max-width: 768px) {
+  .descripcion .texto {
+    width: 100%;
+  }
 }
 
 footer {

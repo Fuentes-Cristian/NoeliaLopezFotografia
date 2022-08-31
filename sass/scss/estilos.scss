@@ -750,20 +750,27 @@ header{
 }
 .descripcion{
 
-   @include flexible(flex, center, center, wrap);
-    flex-direction: row;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+   @include flexible(flex, center, center, nowrap);
+   margin-left: auto;
+   margin-right: auto;
+   width: 35%;
+   height: 100%;
+   text-align: center;
+   @media screen and (max-width:768px) {
+    width: 100%;
+   }
+   
+   
 
     .texto{
-        flex-direction: row;
         font-family: "etna-sans-serif";
         font-size: 1.2rem;
-        color: #4b4949b7
-    }
- }
+        color: #4b4949b7;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+        }
+}
 
 footer{
     @include flexible(flex, center,center, nowrap);
