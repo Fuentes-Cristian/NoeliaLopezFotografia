@@ -520,6 +520,10 @@ header{
     color: #3737379a;
     border-radius: 7px;
     padding: 0.2rem;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
     .bordes{
         border-radius: 1.5rem;
         margin: 15px;
@@ -528,7 +532,11 @@ header{
         font-family: "etna-sans-serif";
         padding: 0.5rem;
         background-color: white;
+       @media screen and (max-width: 768px) {
+        width: 70%;
+       }
     }
+
     .bordes__2{
         border-radius: 1.5rem;
         margin: 15px;
@@ -537,7 +545,11 @@ header{
         font-family: "etna-sans-serif";
         padding: 0.5rem;
         background-color: white;
+        @media screen and (max-width: 768px) {
+            width: 70%;
+           }
     }
+
     .bordes__3{
         border-radius: 1.5rem;
         margin: 15px;
@@ -546,7 +558,11 @@ header{
         font-family: "etna-sans-serif";
         padding: 0.5rem;
         background-color: white;
+        @media screen and (max-width: 768px) {
+            width: 70%;
+           }
     }
+
     .bordes__4{
         border-radius: 1.5rem;
         margin: 15px;
@@ -555,7 +571,11 @@ header{
         font-family: "etna-sans-serif";
         padding: 1.5rem;  
         background-color: white;
+        @media screen and (max-width: 768px) {
+            width: 70%;
+           }
     }
+
     .enviar{
         border-radius: 1rem;
         margin: 15px;
@@ -564,7 +584,11 @@ header{
         font-family: "etna-sans-serif";
         color: #5252528e;
         padding: 7px;
+        @media screen and (max-width: 501px) {
+            width: 70%;
+           }
     }
+
     .restablecer{
         border-radius: 1rem;
         margin: 15px;
@@ -573,16 +597,18 @@ header{
         font-family: "etna-sans-serif";
         color: #5252528e;
         padding: 7px;
+        @media screen and (max-width: 501px) {
+            width: 70%;
+           }
     }
+
     .div__formulario{
         width: 100%;
         height: auto;
+        @media screen and (max-width: 768px) {
+            width: 100%;  
+        }
     }  
-    @media screen and (max-width: 501px) {
-        .formulario{
-             width: 90%;
-        }   
-    }
 
 }
 .row__2{
