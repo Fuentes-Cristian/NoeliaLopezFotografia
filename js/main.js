@@ -1,12 +1,11 @@
 const formulario = document.getElementById("form"),
-submit = document.getElementById("submit")
-resetForm = document.getElementById("reset");
+submit = document.getElementById("submit");
 
 function cliente(nombre, apellido, email, consulta) {
     this.nombre = nombre;
     this.apellido =apellido;
     this.email = email;
-    this.consulta = this.consulta
+    this.consulta = consulta;
     
     submit.addEventListener("click", (e)=>{
 
@@ -17,12 +16,12 @@ function cliente(nombre, apellido, email, consulta) {
         let consultas = consulta = document.getElementById("consulta").value;
 
         nuevoCliente = new cliente (datos, datos2, emails, consultas);
-        clienteNuevo()
-        resetForm.reset()
+        clienteNuevo();
+        
     })
 }
 
-cliente()
+cliente();
 
 baseDatos = [];
 
@@ -32,11 +31,50 @@ function clienteNuevo() {
     baseDatosCadena = JSON.stringify(baseDatos);
     localStorage.setItem("Datos de los clientes", baseDatosCadena);
 }
-
-function fetch2() {
-   fetch('https://jsonplaceholder.typicode.com/todos/1')
+/*
+function api() {
+   fetch('../js/datosClientes.json')
   .then(response => response.json())
-  .then(json => console.log(json))
+  .then(datosClientes =>{
+    datosClientes.forEach(e => {
+     const tabla = document.getElementById("table");
+     tabla.innerHTML = `<table class="table">
+     <thead>
+       <tr>
+         <th scope="col">${e.servicios}</th>
+         <th scope="col">${e.servicios[0].apellido}</th>
+         <th scope="col">${e.servicios}</th>
+         <th scope="col">${e.servicios}</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <th scope="row">1</th>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+       </tr>
+       <tr>
+         <th scope="row">2</th>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+
+       </tr>
+       <tr>
+         <th scope="row">3</th>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+         <td value"${e.servicios}"></td>
+
+       </tr>
+     </tbody>
+   </table>`
+   tabla.appendChild(tabla)
+     
+    });
+    
+  })
 }
 
-fetch2();
+api();*/
